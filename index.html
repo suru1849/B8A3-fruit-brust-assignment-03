@@ -45,6 +45,10 @@
             colors: {
               clifford: "#da373d",
               "base-bg": "#F85559",
+               title: "#121212",
+               info: "#12121299",
+               'icon-bg': "#1212121a",
+
             },
             backgroundImage: {
               'banner-1': "url('./images/banner1.png')",
@@ -142,7 +146,7 @@
       </section>
 
       <!-- team-section -->
-      <section class="p-2 md:p-0">
+      <section class="p-2 lg:p-0 mb-32">
         <div class="relative bg-banner-1 h-[250vh] md:h-[600px] bg-no-repeat bg-cover bg-center rounded-xl">
           <!-- layer -->
           <div class= "absolute bg-gray-900 bg-opacity-60 h-full w-full rounded-xl">
@@ -223,6 +227,134 @@
           </div>
           </div>
         </div>
+      </section>
+
+      <!-- why-choose-us section -->
+      <section class="p-3 lg:p-0 mb-32">
+          <!-- text -->
+            <div class=" md:w-[600px] mx-auto text-center mb-12">
+              <h1 class="text-5xl text-title font-extrabold">Why Choose Us</h1>
+              <p class="text-info font-medium mt-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <!-- Content -->
+            <div class="flex flex-col lg:flex-row mb-32">
+              <!-- 1&2 div -->
+              <div class="flex-1 flex flex-col-reverse md:flex-col lg:flex-row gap-10">
+                  <!-- card-container-left -->
+                  <div class="felx-1">
+                    <!-- card-1-->
+                    <div class="flex flex-col lg:flex-row gap-6 mb-16
+                    items-center text-center lg:text-start">
+                      <!-- icon -->
+                      <div class="text-2xl bg-icon-bg w-[70px] h-[70px] flex justify-center items-center rounded-full">
+                        <i class="fa-solid fa-user-group"></i> 
+                      </div>
+                      <!-- text -->
+                      <div class="max-w-[320px]">
+                        <h3 class="text-2xl text-title font-extrabold">Dedicated Team
+                        </h3>
+                        <!-- horizontal line start -->
+                        <hr class="w-[100px] border-1 border-gray-600 mt-4 mb-3 mx-auto lg:mx-0"/>
+                        <!-- horizontal line end -->
+                        <p class="font-medium tetx-info">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                      </div>
+                    </div>
+                    <!-- card-2-->
+                    <div class="flex flex-col lg:flex-row gap-6 mb-16
+                    items-center text-center lg:text-start">
+                      <!-- icon -->
+                      <div class="text-2xl bg-icon-bg w-[70px] h-[70px] flex justify-center items-center rounded-full">
+                        <i class="fa-solid fa-heart-circle-check"></i>
+                      </div>
+                      <!-- text -->
+                      <div class="max-w-[320px]">
+                        <h3 class="text-2xl text-title font-extrabold">Fresh is Best
+                        </h3>
+                        <!-- horizontal line start -->
+                        <hr class="w-[100px] border-1 border-gray-600 mt-4 mb-3 mx-auto lg:mx-0"/>
+                        <!-- horizontal line end -->
+                        <p class="font-medium tetx-info">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                      </div>
+                    </div>
+                    <!-- card-3-->
+                    <div class="flex flex-col lg:flex-row gap-6
+                    items-center text-center lg:text-start">
+                      <!-- icon -->
+                      <div class="text-2xl bg-icon-bg w-[70px] h-[70px] flex justify-center items-center rounded-full">
+                        <i class="fa-solid fa-gift"></i>
+                      </div>
+                      <!-- text -->
+                      <div class="max-w-[320px]">
+                        <h3 class="text-2xl text-title font-extrabold">Gift Certificates
+                        </h3>
+                        <!-- horizontal line start -->
+                        <hr class="w-[100px] border-1 border-gray-600 mt-4 mb-3 mx-auto lg:mx-0"/>
+                        <!-- horizontal line end -->
+                        <p class="font-medium tetx-info">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                      </div>
+                    </div>
+                     
+                  </div>
+                  <!-- image -->
+                  <div class="flex-1 ">
+                    <img class="w-full h-full" src="./images/whychoose1.png">
+                  </div>
+              </div>
+              <!-- 3 div -->
+              <div class="mt-14 lg:mt-0 lg:ml-10">
+                  <!-- card-container-right -->
+                  <div>
+                    <!-- card-1-->
+                    <div class="flex flex-col lg:flex-row-reverse items-center lg:items-start gap-6 mb-16">
+                      <!-- icon -->
+                      <div class="text-2xl bg-icon-bg w-[70px] h-[70px] flex justify-center items-center rounded-full">
+                        <i class="fa-solid fa-truck"></i>
+                      </div>
+                      <!-- text -->
+                      <div class="max-w-[320px] text-center lg:text-right ">
+                        <h3 class="text-2xl text-title font-extrabold">Integrated Supplier
+                        </h3>
+                        <!-- horizontal line start -->
+                        <hr class="w-[100px] border-1 border-gray-600 mt-4 mb-3 mx-auto lg:ml-[219px]" />
+                        <!-- horizontal line end -->
+                        <p class="font-medium tetx-info">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                      </div>
+                    </div>
+                    <!-- card-2-->
+                    <div class="flex flex-col lg:flex-row-reverse items-center lg:items-start gap-6 mb-16">
+                      <!-- icon -->
+                      <div class="text-2xl bg-icon-bg w-[70px] h-[70px] flex justify-center items-center rounded-full">
+                        <i class="fa-solid fa-ice-cream"></i>
+                      </div>
+                      <!-- text -->
+                      <div class="max-w-[320px] text-center lg:text-right ">
+                        <h3 class="text-2xl text-title font-extrabold">Sustainable Practice
+                        </h3>
+                        <!-- horizontal line start -->
+                        <hr class="w-[100px] border-1 border-gray-600 mt-4 mb-3 mx-auto lg:ml-[219px]" />
+                        <!-- horizontal line end -->
+                        <p class="font-medium tetx-info">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                      </div>
+                    </div>
+                    <!-- card-3-->
+                    <div class="flex flex-col lg:flex-row-reverse items-center lg:items-start gap-6">
+                      <!-- icon -->
+                      <div class="text-2xl bg-icon-bg w-[70px] h-[70px] flex justify-center items-center rounded-full">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                      </div>
+                      <!-- text -->
+                      <div class="max-w-[320px] text-center lg:text-right ">
+                        <h3 class="text-2xl text-title font-extrabold">The Benefits Only
+                        </h3>
+                        <!-- horizontal line start -->
+                        <hr class="w-[100px] border-1 border-gray-600 mt-4 mb-3 mx-auto lg:ml-[219px]" />
+                        <!-- horizontal line end -->
+                        <p class="font-medium tetx-info">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
       </section>
     </main>
 
